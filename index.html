@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/mi_imagen.jpg" type="image/x-icon">
+  <title>Juan Alvarez | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/hamburger.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <button class="hamburger hamburger--spin" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <section data-section id="home" class="hero">
+      <div class="hero__content">
+        <div class="hero__image"></div>
+        <div class="hero__info">
+          <h1 class="hero__title">Juan Alvarez</h1>
+          <p class="hero__subtitle">Programador frontend</p>
+          <a class="hero__btn" href="#contact">Contactame</a>
+        </div>
+      </div>
+    </section>
+    <aside class="menu">
+      <header class="menu__header">
+        <div class="menu__avatar"></div>
+      </header>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <div class="menu__icon">
+            <i class="bi bi-house"></i>
+          </div>
+          <a class="menu__link" data-section href="#home">Inicio</a>
+        </li>
+        <li class="menu__item">
+          <div class="menu__icon">
+            <i class="bi bi-file-person"></i>
+          </div>
+          <a class="menu__link" data-section href="#about">Sobre mi</a>
+        </li>
+        <li class="menu__item">
+          <div class="menu__icon">
+            <i class="bi bi-person-gear"></i>
+          </div>
+          <a class="menu__link" data-section href="#skills">Habilidades</a>
+        </li>
+        <li class="menu__item">
+          <div class="menu__icon">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <a class="menu__link" data-section href="#projects">Proyectos</a>
+        </li>
+        <li class="menu__item">
+          <div class="menu__icon">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <a class="menu__link" data-section href="#contact">Contacto</a>
+        </li>
+      </ul>
+      <footer class="menu__footer">
+        <div class="menu__social">
+          <a href="#" target="_blank" class="menu__social-item menu__social-item--linkedin"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" class="menu__social-item menu__social-item--github"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank" class="menu__social-item menu__social-item--instagram"><i
+              class="fa-brands fa-instagram "></i></a>
+          <a href="#" target="_blank" class="menu__social-item menu__social-item--twitter"><i
+              class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </footer>
+    </aside>
+    <main class="main">
+      <section data-section id="about" class="main__section main__section--about">
+        <h2 class="main__section-title">Sobre mí</h2>
+        <article class="main__section-info">
+          <div class="main__section-image">
+          </div>
+          <div class="main__section-text">
+            <p>
+              ¡Hola! Soy Juan Alvarez, programador frontend. Mi interés en la programación comenzó en la escuela
+              secundaria, donde me gradué como técnico en informática profesional y personal, con especialización en
+              programación. Durante esos años, adquirí conocimientos en lenguajes como C, Java y JavaScript, así
+              como en administración de bases de datos SQL.
+            </p>
+            <p>
+              Aunque todavía no tengo experiencia laboral en el campo de la programación, estoy comprometido en seguir
+              aprendiendo y mejorando mis habilidades de forma autodidacta. Actualmente, me encuentro enfocado en
+              estudiar programación web, explorando tecnologías como HTML, CSS, JavaScript y librerías como React.
+            </p>
+
+          </div>
+        </article>
+      </section>
+      <section data-section id="skills" class="main__section">
+        <h2 class="main__section-title">Habilidades</h2>
+        <div class="main__skills">
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-html5"></i></div>
+            <div class="main__skill-title">HTML</div>
+          </div>
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="main__skill-title">CSS</div>
+          </div>
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-square-js"></i></div>
+            <div class="main__skill-title">JavaScript</div>
+          </div>
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-figma"></i></div>
+            <div class="main__skill-title">Figma</div>
+          </div>
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="main__skill-title">Git</div>
+          </div>
+          <div class="main__skill">
+            <div class="main__skill-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="main__skill-title">Github</div>
+          </div>
+        </div>
+      </section>
+      <section data-section id="projects" class="main__section">
+        <h2 class="main__section-title">Proyectos</h2>
+        <article class="main__projects cards-group">
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-01.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Formulario de suscripción</h2>
+                <p class="flip-card__text">Desafío del sitio frontendmentor.io que consiste en crear un formulario de
+                  suscripción a newsletter con sus correspondientes
+                  validaciones de correo y mensaje de respuesta.
+                </p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                    <li class="flip-card__language">JavaScript</li>
+                  </ul>
+
+                  <div class="flip-card__links">
+                    <a class="flip-card__link"
+                      href="https://juanalvarezd.github.io/newsletter-sign-up-with-success-message-main/"
+                      target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link"
+                      href="https://github.com/juanalvarezd/newsletter-sign-up-with-success-message-main"
+                      target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-02.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Rating component</h2>
+                <p class="flip-card__text">Desafío del sitio frontendmentor.io que consiste en crear un componente de
+                  calificación numérico que muestre un
+                  mensaje de gracias y la calificación enviada.
+                </p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                    <li class="flip-card__language">JavaScript</li>
+                  </ul>
+
+                  <div class="flip-card__links">
+                    <a class="flip-card__link" href="https://juanalvarezd.github.io/interactive_rating_component_main/"
+                      target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link" href="https://github.com/juanalvarezd/interactive_rating_component_main"
+                      target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-03.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Formulario de registro</h2>
+                <p class="flip-card__text">
+                  Desafío del sitio frontendmentor.io que consiste en crear un formulario de registro con
+                  validación del lado del cliente usando JavaScript.
+                </p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                    <li class="flip-card__language">JavaScript</li>
+                  </ul>
+
+                  <div class="flip-card__links">
+                    <a class="flip-card__link" href="https://juanalvarezd.github.io/sign-up-form/" target="_blank"
+                      rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link" href="https://github.com/juanalvarezd/sign-up-form" target="_blank"
+                      rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-04.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Sección de testimonios</h2>
+                <p class="flip-card__text">
+                  Desafío del sitio frontendmentor.io que consiste en crear una sección de testimonios adaptable a la
+                  pantalla de cualquier dispositivo.
+                </p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                  </ul>
+
+                  <div class="flip-card__links">
+                    <a class="flip-card__link" href="https://juanalvarezd.github.io/testimonials-grid-section-main/"
+                      target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link" href="https://github.com/juanalvarezd/testimonials-grid-section-main"
+                      target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-05.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Landing page</h2>
+                <p class="flip-card__text">Desafío del sitio frontendmentor.io que consiste en crear una landing page
+                  adaptable
+                  a la pantalla de cualquier dispositivo.</p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                  </ul>
+
+                  <div class="flip-card__links">
+                    <a class="flip-card__link" href="https://juanalvarezd.github.io/huddle-landing-page-frontendmentor/"
+                      rel="noopener" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link" href="https://github.com/juanalvarezd/huddle-landing-page-frontendmentor"
+                      target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-group__card flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <img src="assets/project-00.png" alt="vista previa del proyecto" class="flip-card__image">
+              </div>
+              <div class="flip-card__back">
+                <h2 class="flip-card__title">Portfolio personal</h2>
+                <p class="flip-card__text">
+                  Primera versión de mi portfolio personal, creado con html, css y JavaScript puro.
+                </p>
+                <div class="flip-card__footer">
+                  <ul class="flip-card__languages">
+                    <li class="flip-card__language">HTML</li>
+                    <li class="flip-card__language">CSS</li>
+                    <li class="flip-card__language">JavaScript</li>
+                  </ul>
+                  <div class="flip-card__links">
+                    <a class="flip-card__link" href="https://juanalvarezd.github.io/portfolio_personal" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                    <a class="flip-card__link" href="https://github.com/juanalvarezd/portfolio_personal" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section data-section id="contact" class="main__section">
+        <h2 class="main__section-title">Contacto</h2>
+        <form class="main__contact form">
+          <input class="form__input" type="text" name="name" id="name" title="Ingrese un nombre correcto"
+            pattern="^[a-zA-Z\s]{2,40}$" placeholder="Nombre..." required>
+          <input class="form__input" type="email" name="email" id="email"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9\-]+(\.[a-z0-9\-]+)*(\.[a-z]{2,15})$"
+            title="El formato del email es incorrecto" placeholder="Correo..." required>
+          <input class="form__input" type="text" name="subject" id="subject" placeholder="Asunto...">
+          <textarea class="form__text-area" name="message" id="message" cols="30" rows="10"
+            placeholder="Ingrese su mensaje:"></textarea>
+          <input class="form__submit" type="submit" value="Contactar">
+          <div class="form__loader display-none"></div>
+        </form>
+      </section>
+      <div class="to-top">
+        <i class="bi bi-arrow-up-short"></i>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/75b2d472bf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
